@@ -1,0 +1,1 @@
+This folder contains the train dataset with one folder for each camera model. Each folder contains separate sets of images
