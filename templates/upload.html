@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Camera Type Identification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<h3> Upload the image for which you want to identify the camera type</h3>
+<form action="/" method="POST" enctype = "multipart/form-data">
+<table style="width:50%">
+    <tr>
+        <th>Image File Name</th>
+        <th>Camera Type</th>
+    </tr>
+    <tr>
+        {% for value in output%}
+        <td> {{value}}</td>
+        {% endfor %}
+    </tr>
+    <tr >
+        <td colspan = 2>
+            <input type="file" name="imagefile" accept="image/tif,image/jpeg" />
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+
+    <tr>
+
+    </tr>
+
+</table>
+</form>
+</body>
+</html>
