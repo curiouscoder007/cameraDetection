@@ -7,7 +7,7 @@ This project aims to solve this problem at a very basic level using a simple CNN
 
 ## Requirements
 The required libraries are mentioned in the requirements.txt and can be installed with 
-pip install -r requirements.txt
+pip install -r requirements.txt . (Best to use tensorflow-gpu for the training of the model)
 
 ## Execution
 The application web service can be started with app.py which functions as the controller. 
