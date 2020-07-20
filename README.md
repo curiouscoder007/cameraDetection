@@ -24,7 +24,10 @@ Some parts of the program has been hardcoded for the easier execution of the pro
   templates: standard Flake setup for html files 
   tests: Unit test files for checking the correctness of the programs
   
-  ## Future Scope
+## Model
+  The program uses a simple sequential model with 3 conv layers and flattens the output from them. The output is then passed through a dense layer which helps to classify the image based on the camera used. 
+  
+## Future Scope
   This model is pretty basic as of now. In the kaggle LB, this scored a mere 24% accuracy. In training these images, they are resized to 192 x 192. Instead cropping them at the center, as similar to the test dataset provided by kaggle might improve accuracy. Similary, using transfer learning for the model, will greatly improve the final score. 
  
   
