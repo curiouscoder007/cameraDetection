@@ -7,7 +7,8 @@ The details of the project is listed here : https://www.kaggle.com/c/sp-society-
 This project aims to solve this problem at a very basic level using a simple CNN model.
 
 ## Accessibility
-This program is set to be accessible directly at http://100.25.203.13:5000/ for testing purposes.
+This program is set to be accessible directly at http://100.25.203.13:5000/ for testing purposes. 
+A blogpost explaining the overall experience with this project is found at : https://medium.com/@anandrajt/my-hello-world-with-machine-learning-2c8bf7b7ea5a
 
 ## Requirements
 The required libraries are mentioned in the requirements.txt and can be installed with 
