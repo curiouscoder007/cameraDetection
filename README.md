@@ -1,9 +1,13 @@
 # cameraDetection
 
+
 ## Introduction
 The camera detection model is a Kaggle project which aims to identify a camera based on an image taken from it. 
 The details of the project is listed here : https://www.kaggle.com/c/sp-society-camera-model-identification/overview   
 This project aims to solve this problem at a very basic level using a simple CNN model.
+
+## Accessibility
+This program is set to be accessible directly at http://100.25.203.13:5000/ for testing purposes.
 
 ## Requirements
 The required libraries are mentioned in the requirements.txt and can be installed with 
